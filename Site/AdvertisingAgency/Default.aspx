@@ -3,9 +3,9 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        <h1><div>Рекламное агентство</div><div>"Назойливая букашка"</div></h1>
+        <p class="lead">Мы — российская рекламная компания, работающая с 2021 года. И мы лучше наших конкурентов!</p>
+        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Наши услуги &raquo;</a></p>
     </div>
 
     <div class="row">
@@ -19,12 +19,12 @@
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Get more libraries</h2>
+            <h2>Заказать рекламу</h2>
             <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
+                Мы предлагаем несколько вариантов размещения и разработки рекламы — далее вы можете изучить их виды и заказать вашу рекламу!
             </p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                <a class="btn btn-default" runat="server" href="~/Services">Сделать заказ &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
