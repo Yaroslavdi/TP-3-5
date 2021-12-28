@@ -7,12 +7,18 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using AdvertisingAgency.Models;
+using System.Collections.Generic;
 
 namespace AdvertisingAgency.Models
 {
     // Можно добавить данные о пользователе, указав больше свойств для класса User. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=317594.
     public class ApplicationUser : IdentityUser
     {
+        public List<CreatorResult> CreatorResults { get; set; }
+        public ApplicationUser()
+        {
+            CreatorResults = new List<CreatorResult>();
+        }
         public ClaimsIdentity GenerateUserIdentity(ApplicationUserManager manager)
         {
             // Обратите внимание, что authenticationType должен совпадать с типом, определенным в CookieAuthenticationOptions.AuthenticationType
