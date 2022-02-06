@@ -8,6 +8,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using AdvertisingAgency.Models;
 using System.Collections.Generic;
+using System.Data.Entity;
 
 namespace AdvertisingAgency.Models
 {
@@ -39,6 +40,7 @@ namespace AdvertisingAgency.Models
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
+        public DbSet<CreatorResult> CreatorResults { get; set; }
 
         public static ApplicationDbContext Create()
         {

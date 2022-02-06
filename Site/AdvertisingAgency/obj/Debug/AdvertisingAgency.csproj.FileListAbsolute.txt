@@ -115,3 +115,17 @@ C:\Users\Yaroslav_Biletchenko\Documents\GitHub\TP-3-5\Site\AdvertisingAgency\obj
 C:\Users\Yaroslav_Biletchenko\Documents\GitHub\TP-3-5\Site\AdvertisingAgency\obj\Debug\AdvertisingAgency.csproj.CopyComplete
 C:\Users\Yaroslav_Biletchenko\Documents\GitHub\TP-3-5\Site\AdvertisingAgency\obj\Debug\AdvertisingAgency.dll
 C:\Users\Yaroslav_Biletchenko\Documents\GitHub\TP-3-5\Site\AdvertisingAgency\obj\Debug\AdvertisingAgency.pdb
+C:\Users\Yaroslav_Biletchenko\Documents\GitHub\TP-3-5\Site\AdvertisingAgency\obj\Debug\AdvertisingAgency.Migrations.InitialCreate.resources
+C:\Users\Yaroslav_Biletchenko\Documents\GitHub\TP-3-5\Site\AdvertisingAgency\obj\Debug\AdvertisingAgency.csproj.GenerateResource.cache
+C:\Users\Yaroslav_Biletchenko\Documents\GitHub\TP-3-5\Site\AdvertisingAgency\bin\System.Web.Helpers.dll
+C:\Users\Yaroslav_Biletchenko\Documents\GitHub\TP-3-5\Site\AdvertisingAgency\bin\System.Web.Mvc.dll
+C:\Users\Yaroslav_Biletchenko\Documents\GitHub\TP-3-5\Site\AdvertisingAgency\bin\System.Web.Razor.dll
+C:\Users\Yaroslav_Biletchenko\Documents\GitHub\TP-3-5\Site\AdvertisingAgency\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Yaroslav_Biletchenko\Documents\GitHub\TP-3-5\Site\AdvertisingAgency\bin\System.Web.WebPages.dll
+C:\Users\Yaroslav_Biletchenko\Documents\GitHub\TP-3-5\Site\AdvertisingAgency\bin\System.Web.WebPages.Razor.dll
+C:\Users\Yaroslav_Biletchenko\Documents\GitHub\TP-3-5\Site\AdvertisingAgency\bin\System.Web.Helpers.xml
+C:\Users\Yaroslav_Biletchenko\Documents\GitHub\TP-3-5\Site\AdvertisingAgency\bin\System.Web.Mvc.xml
+C:\Users\Yaroslav_Biletchenko\Documents\GitHub\TP-3-5\Site\AdvertisingAgency\bin\System.Web.Razor.xml
+C:\Users\Yaroslav_Biletchenko\Documents\GitHub\TP-3-5\Site\AdvertisingAgency\bin\System.Web.WebPages.xml
+C:\Users\Yaroslav_Biletchenko\Documents\GitHub\TP-3-5\Site\AdvertisingAgency\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Yaroslav_Biletchenko\Documents\GitHub\TP-3-5\Site\AdvertisingAgency\bin\System.Web.WebPages.Razor.xml
