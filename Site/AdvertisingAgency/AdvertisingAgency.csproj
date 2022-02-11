@@ -240,6 +240,7 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Services.aspx" />
     <Content Include="Site.Master" />
+    <Content Include="UserRoleDefinator.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -421,6 +422,13 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="UserRoleDefinator.aspx.cs">
+      <DependentUpon>UserRoleDefinator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserRoleDefinator.aspx.designer.cs">
+      <DependentUpon>UserRoleDefinator.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
