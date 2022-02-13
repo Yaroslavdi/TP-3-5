@@ -37,6 +37,16 @@
             </div>
         </div>
         <div class="form-group">
+            <asp:Label runat="server" AssociatedControlID="ConfirmPassword" CssClass="col-md-2 control-label">Выберите роль</asp:Label>
+            <div class="col-md-10">
+                <select>
+                    <option>Admin</option>
+                    <option>Creator</option>
+                    <option>Manager</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                 <asp:Button runat="server" OnClick="CreateUser_Click" Text="Регистрация" CssClass="btn btn-default" />
             </div>

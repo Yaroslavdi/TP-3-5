@@ -6,11 +6,15 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Owin;
 using AdvertisingAgency.Models;
+using System.Web.Mvc;
+
 
 namespace AdvertisingAgency.Account
 {
     public partial class Register : Page
     {
+        [Authorize(Roles = "admin")]
+
         protected void CreateUser_Click(object sender, EventArgs e)
         {
             var manager = Context.GetOwinContext().GetUserManager<ApplicationUserManager>();

@@ -56,12 +56,14 @@
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a runat="server" href="~/Account/Register">Регистрация</a></!--li>
                                 <!--li><a runat="server" href="~/Account/Login">Вход</a></!--li-->
+                                                <p><a runat="server" href="~/Account/Login">Для сотрудников</a></p>
+
                             </ul>
                         </AnonymousTemplate>
                         <LoggedInTemplate>
                             <ul class="nav navbar-nav navbar-right">
+                                                                <li><a runat="server" href="~/Account/Register">Регистрация пользователей</a></!--li>
                                 <li><a runat="server" href="~/Account/Manage" title="Manage your account">Здравствуйте, <%: Context.User.Identity.GetUserName()  %> !</a></li>
                                 <li>
                                     <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
@@ -77,7 +79,6 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p><a runat="server" href="~/Account/Login">Для сотрудников</a></p>
                 <p>&copy; <%: DateTime.Now.Year %> - главный и единственный разработчик -- Ярослав Билетченко.</p>
             </footer>
         </div>
